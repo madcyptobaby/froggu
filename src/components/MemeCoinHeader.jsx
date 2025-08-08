@@ -20,16 +20,16 @@ const MemeCoinHeader = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6 text-lg">
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="#herosection" className="hover:text-green-600 transition">
               Home
             </a>
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="#aboutus" className="hover:text-green-600 transition">
               About
             </a>
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="#tokenomics" className="hover:text-green-600 transition">
               Tokenomics
             </a>
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="#roadmap" className="hover:text-green-600 transition">
               Roadmap
             </a>
           </nav>
