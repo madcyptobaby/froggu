@@ -5,7 +5,7 @@ const SocialStrip = () => {
   return (
     <div className="w-full mb-5 flex justify-center items-center rounded-full ">
       <a
-        href="https://twitter.com/your_username" // Replace with your Twitter link
+        href="https://twitter.com/froggu_xyz" // Replace with your Twitter link
         target="_blank"
         rel="noopener noreferrer"
         className="text-black hover:text-yellow-400 transition text-2xl flex items-center gap-2"
