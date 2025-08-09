@@ -7,6 +7,6 @@ import f5 from "../../assets/f5.jpeg";
 import f6 from "../../assets/f6.png";
 
 export default function Gallery() {
-  const memeImages = [f1, f2, f3, f4, f5, f6];
+  const memeImages = [f5, f6, f3, f1, f2, f4];
   return <MemeGallery images={memeImages} />;
 }

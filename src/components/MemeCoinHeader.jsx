@@ -36,7 +36,7 @@ const MemeCoinHeader = () => {
             <a href="gallery" className="hover:text-green-600 transition">
               Gallery
             </a>
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="memeeditor" className="hover:text-green-600 transition">
               Meme Maker
             </a>
             {/*  */}
@@ -85,7 +85,7 @@ const MemeCoinHeader = () => {
             <a href="gallery" className="hover:text-green-600 transition">
               Gallery
             </a>
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="memeeditor" className="hover:text-green-600 transition">
               Meme Maker
             </a>
             {/*  */}
