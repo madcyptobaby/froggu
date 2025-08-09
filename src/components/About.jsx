@@ -1,16 +1,17 @@
 import React from "react";
-import ftwo from "../assets/f2.png";
+import ftwo from "../assets/f5.jpeg";
+import "./Float.css";
 
 const AboutUs = () => {
   return (
     <section className="bg-white py-20" id="aboutus">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center gap-12">
         {/* Image */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 ">
           <img
             src={ftwo} // Replace with your own image/mascot/logo
             alt="About MemeCoin"
-            className=" w-full max-w-md mx-auto md:mx-0"
+            className=" w-full max-w-md mx-auto md:mx-0 rounded-full  animate-float shadow-2xl"
           />
         </div>
 
@@ -20,15 +21,16 @@ const AboutUs = () => {
             About FROGGU 🐸
           </h2>
           <p className="text-lg text-gray-700 mb-6">
-            FROGGU isn’t just another meme token — it’s a movement. Born from
-            the spirit of the internet, FROGGU is powered by community, driven
-            by laughter, and aimed at redefining the future of fun finance.
+            FROGGU was born when a frog saw a chart go up and said, “ribbit.”
+            That ribbit echoed through the blockchain, summoned the meme gods,
+            and now here we are.
           </p>
           <p className="text-md text-gray-600 mb-6">
-            Our mission is to combine the energy of meme culture with the
-            transparency and innovation of decentralized finance. We believe
-            that crypto should be accessible, community-driven, and — most
-            importantly — fun.
+            We don’t promise lambos — only endless frog pics, chaotic vibes, and
+            the occasional moon jump.
+          </p>
+          <p className="text-md text-gray-600 mb-6 font-bold">
+            Buy FROGGU. Hold FROGGU. Become FROGGU. 🐸🚀 In frog we trust.
           </p>
           <a
             href="#"

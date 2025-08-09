@@ -10,6 +10,8 @@ import AboutUs from "./components/About";
 import FooterStrip from "./components/FooterStrip";
 import CopyStrip from "./components/CopyStrip";
 import SocialStrip from "./components/twitter";
+// import DisclaimerStrip from "./components/Disclaimer";
+import NoteDisclaimer from "./components/Disclaimer";
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
       <Roadmap />
       <AboutUs />
       <SocialStrip />
+      <NoteDisclaimer />
       <FooterStrip />
     </>
   );

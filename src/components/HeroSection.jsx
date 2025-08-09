@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Float.css";
 import { FaRocket } from "react-icons/fa";
-import fone from "../assets/f1.png";
+import fone from "../assets/f6.png";
 const HeroSection = () => {
   return (
     <section
@@ -17,8 +17,8 @@ const HeroSection = () => {
             <span className="text-green-600">is Froggu 🐸</span>
           </h1>
           <p className="text-lg text-gray-700 mb-6">
-            Not just another coin. It’s a revolution of FROGGU, community, and
-            good vibes.
+            Not just another coin. It’s a revolution of FROGGU, <br />
+            community, and good vibes.
           </p>
           <a
             href="#"
@@ -30,11 +30,11 @@ const HeroSection = () => {
         </div>
 
         {/* Image Section */}
-        <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="w-full lg:w-1/2 flex justify-center ">
           <img
             src={fone} // Replace this with your meme coin mascot or image URL
             alt="MemeCoin Mascot"
-            className="w-80 sm:w-96 lg:w-[28rem] animate-float "
+            className="w-80 sm:w-96 lg:w-[28rem] animate-float rounded-2xl transform scale-x-[-1]"
           />
         </div>
       </div>

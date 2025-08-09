@@ -32,6 +32,14 @@ const MemeCoinHeader = () => {
             <a href="#roadmap" className="hover:text-green-600 transition">
               Roadmap
             </a>
+            {/*  */}
+            <a href="#" className="hover:text-green-600 transition">
+              Gallery
+            </a>
+            <a href="#" className="hover:text-green-600 transition">
+              Meme Maker
+            </a>
+            {/*  */}
           </nav>
 
           {/* Buy Button */}
@@ -61,18 +69,26 @@ const MemeCoinHeader = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-yellow-100 border-t border-yellow-300">
           <nav className="flex flex-col px-4 py-2 space-y-2 text-lg">
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="#herosection" className="hover:text-green-600 transition">
               Home
             </a>
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="#aboutus" className="hover:text-green-600 transition">
               About
             </a>
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="#tokenomics" className="hover:text-green-600 transition">
               Tokenomics
             </a>
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="#roadmap" className="hover:text-green-600 transition">
               Roadmap
             </a>
+            {/*  */}
+            <a href="#" className="hover:text-green-600 transition">
+              Gallery
+            </a>
+            <a href="#" className="hover:text-green-600 transition">
+              Meme Maker
+            </a>
+            {/*  */}
             <a
               href="#"
               className="mt-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded flex items-center gap-2 transition w-fit"

@@ -31,10 +31,9 @@ const roadmapData = [
   },
   {
     icon: <FaRocket className="text-white text-xl" />,
-    title: "Phase 4: CEX Listings",
+    title: "Phase 4: Liquidity Expansion",
     date: "Q2 2026",
-    description:
-      "Apply for centralized exchange listings and expand liquidity.",
+    description: "Strengthen DEX liquidity, explore strategic partnerships..",
     color: "bg-purple-500",
   },
   // {
