@@ -7,6 +7,8 @@ import HomePage from "./components/HomePage.jsx";
 import Gallery from "./components/Gallery/Gallery.jsx";
 import NotFound from "./components/NotFound/NotFound.jsx";
 import MemeEditor from "./components/MemeEditor/MemeEditor.jsx";
+import CommunityTweetGallery from "./components/CommunityMeme/CommunityTweets.jsx";
+// import CommunityTweetGallery from "./components/CommunityMeme/CommunityTweets.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,7 @@ const router = createBrowserRouter([
       { path: "/", element: <HomePage /> },
       { path: "/gallery", element: <Gallery /> },
       { path: "/memeeditor", element: <MemeEditor /> },
+      { path: "/community-meme", element: <CommunityTweetGallery /> },
     ],
     errorElement: <NotFound />,
   },
