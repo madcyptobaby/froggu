@@ -20,7 +20,7 @@ const MemeCoinHeader = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-6 text-lg">
-            <a href="#herosection" className="hover:text-green-600 transition">
+            <a href="/" className="hover:text-green-600 transition">
               Home
             </a>
             <a href="#aboutus" className="hover:text-green-600 transition">
@@ -33,7 +33,7 @@ const MemeCoinHeader = () => {
               Roadmap
             </a>
             {/*  */}
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="gallery" className="hover:text-green-600 transition">
               Gallery
             </a>
             <a href="#" className="hover:text-green-600 transition">
@@ -69,7 +69,7 @@ const MemeCoinHeader = () => {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-yellow-100 border-t border-yellow-300">
           <nav className="flex flex-col px-4 py-2 space-y-2 text-lg">
-            <a href="#herosection" className="hover:text-green-600 transition">
+            <a href="/" className="hover:text-green-600 transition">
               Home
             </a>
             <a href="#aboutus" className="hover:text-green-600 transition">
@@ -82,7 +82,7 @@ const MemeCoinHeader = () => {
               Roadmap
             </a>
             {/*  */}
-            <a href="#" className="hover:text-green-600 transition">
+            <a href="gallery" className="hover:text-green-600 transition">
               Gallery
             </a>
             <a href="#" className="hover:text-green-600 transition">

@@ -1,12 +1,14 @@
 import "./App.css";
 import MemeCoinHeader from "./components/MemeCoinHeader";
-import HomePage from "./components/HomePage";
+import FooterStrip from "./components/FooterStrip";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <MemeCoinHeader />
-      <HomePage />
+      {/* <MemeCoinHeader /> */}
+      <Outlet />
+      <FooterStrip />
     </>
   );
 }

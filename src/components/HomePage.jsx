@@ -7,9 +7,11 @@ import CopyStrip from "./CopyStrip";
 import SocialStrip from "./twitter";
 import NoteDisclaimer from "./Disclaimer";
 import HeroSection from "./HeroSection";
+import MemeCoinHeader from "./MemeCoinHeader";
 const HomePage = () => {
   return (
     <>
+      <MemeCoinHeader />
       <HeroSection />
       <CopyStrip />
       <Tokenomics />
@@ -17,7 +19,7 @@ const HomePage = () => {
       <AboutUs />
       <SocialStrip />
       <NoteDisclaimer />
-      <FooterStrip />
+      {/* <FooterStrip /> */}
     </>
   );
 };
